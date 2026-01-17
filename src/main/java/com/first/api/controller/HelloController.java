@@ -29,15 +29,13 @@ public class HelloController {
     }
 
 
+    //Este es otro comentario para ver que hace jenkins
+    //Este es otro comentario para ver que hace jenkins
+    //Este es otro comentario para ver que hace jenkins
+    //Este es otro comentario para ver que hace jenkins
+    //Este es otro comentario para ver que hace jenkins
     @GetMapping("/hello4")
     public String saludar4(){
-        return "Hola Mundo con REST en Spring Boot";
-    }
-
-
-    //Otro comentario
-    @GetMapping("/hello6")
-    public String saludar6(){
         return "Hola Mundo con REST en Spring Boot";
     }
 }
