@@ -48,6 +48,9 @@ public class ProductoRepository {
     }
 
     //Eliminamos un producto
+    //Eliminamos un producto
+    //Eliminamos un producto
+    //Eliminamos un producto
     public String delete(Integer id){
         productos.removeIf(x -> x.getId() == id);
         return null;
